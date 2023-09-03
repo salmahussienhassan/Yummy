@@ -437,6 +437,7 @@ yummySec.classList.replace('d-block','d-none')
     ingredientsSec.classList.replace('d-block','d-none')
     searchSec.classList.replace('d-block','d-none')
     contactSec.classList.replace('d-block','d-none')
+    detailsSec.classList.replace('d-block','d-none')
     closeAside()
     await displayCat()
     $('.loading').css('display','none')
@@ -453,6 +454,7 @@ areaBtn.addEventListener('click',async function(){
     ingredientsSec.classList.replace('d-block','d-none')
     searchSec.classList.replace('d-block','d-none')
     contactSec.classList.replace('d-block','d-none')
+    detailsSec.classList.replace('d-block','d-none')
     await getArea()
     $('.loading').css('display','none')
    
@@ -467,6 +469,7 @@ ingredientsBtn.addEventListener('click',async function(){
     areaSec.classList.replace('d-block','d-none')
     searchSec.classList.replace('d-block','d-none')
     contactSec.classList.replace('d-block','d-none')
+    detailsSec.classList.replace('d-block','d-none')
     await getIngredients()
     $('.loading').css('display','none')
 })
@@ -480,6 +483,7 @@ searchBtn.addEventListener('click',function(){
     categorySec.classList.replace('d-block','d-none')
     areaSec.classList.replace('d-block','d-none')
     contactSec.classList.replace('d-block','d-none')
+    detailsSec.classList.replace('d-block','d-none')
 })
 
 nameSearch.addEventListener('input',async function(){
