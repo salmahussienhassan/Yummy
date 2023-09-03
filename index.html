@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="./img/logo (9).png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <!-- aside section -->
+    <aside>
+        <div class="black bg-black d-flex flex-column justify-content-between px-3 py-5">
+            <div class="categ ">
+                <ul class="p-0">
+                    <li class="position-relative py-2 "  id="searchBtn"> Search</li>
+                    <li class="position-relative  py-2"  id="cat" class="my-3">Categories</li>
+                    <li class="position-relative  py-2"  id="areaBtn" class="my-3">Area</li>
+                    <li class="position-relative  py-2"  id="ingredientsBtn" class="my-3">Ingredients</li>
+                    <li class="position-relative  py-2"  id="contactBtn" class="my-3">ContactUs</li>
+    
+                </ul>
+            </div>
+           <div class="copy-right text-white">
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <p>Copyright Â© 2023 All Rights
+                Reserved.</p>
+           </div>
+        </div>
+<div class="white d-flex flex-column align-items-center justify-content-between py-4">
+    
+            <div class="img w-75">
+                <img src="./img/logo (9).png" class="img-fluid" alt="">
+            </div>
+            <i class="fa-solid menu  open-close-icon fa-2x fa-align-justify"></i>
+            <i class="fa-solid close open-close-icon text-black fa-2x fa-x "></i>
+            <div>
+                <i class="fa-solid fa-globe d-block text-black "></i>
+                <i class="fa-solid fa-share-nodes text-black "></i>
+            </div>
+    
+    
+</div>
+    </aside>
+ <!-- search section -->
+ <section id="search" class="search py-5 d-none">
+    <div class="container">
+        <div class="row">
+            <div  class="col-md-6 ">
+                <input id="nameSearch" placeholder="Search By Name" class="form-control form-control--updated" type="text">
+            </div>
+            <div  class="col-md-6">
+                <input id="letterSearch" maxlength="1" placeholder="Search By First Letter" class="form-control form-control--updated" type="text">
+            </div>
+        </div>
+    </div>
+</section>
+
+     <!-- Yummy section -->
+<section class="yummy my-5 d-none">
+    <div class="container">
+        <div class="row g-4">
+          
+        </div>
+    </div>
+</section>
+
+
+ <!-- details section -->
+<section class="details my-5 d-none">
+    <div class="container">
+<div class="row">
+   
+</div>
+    </div>
+</section>
+
+
+
+
+ <!-- categories section -->
+<section id="categories" class="categories my-5 d-none">
+    <div class="container">
+        <div class="row g-3">
+           
+        </div>
+    </div>
+</section>
+
+
+<!-- area section -->
+<section id="area" class="area my-5 d-none">
+    <div class="container">
+        <div class="row g-4 justify-content-center align-items-center d-flex">
+          
+        </div>
+    </div>
+</section>
+
+
+<!-- Ingredients section -->
+<section id="ingredients" class="ingredients my-5 d-none">
+    <div class="container">
+<div class="row my-5">
+ 
+</div>
+    </div>
+</section>
+
+
+<!-- contact section -->
+<section id="contact" class="contact  my-5 d-none">
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        
+<!-- <form id="myForm" > -->
+    <div class="row w-75 m-auto ">
+    <div class="col-md-6">
+        <input class="form-control" placeholder="Enter Your Name" type="text" id="nameInput">
+        <p class="alert alert-danger p-1 text-center opacity-0">Special characters and numbers not allowed</p>
+        <input class="form-control " placeholder="Enter Your Phone" type="tel" id="phoneInput">
+        <p class="alert alert-danger p-1 text-center opacity-0">Enter valid Phone Number</p>
+        <input class="form-control " placeholder="Enter Your Password" type="password" id="passwordInput">
+        <p class="alert alert-danger  p-1 text-center opacity-0">Enter valid password *Minimum eight characters, at least one letter and one number:*</p>
+                    </div>
+        
+                    <div class="col-md-6">
+                        
+                        <input class="form-control " placeholder="Enter Your Email" type="email" id="emailInput">
+                        <p class="alert alert-danger p-1 text-center opacity-0">Email not valid *exemple@yyy.zzz</p>
+                        <input class="form-control " placeholder="Enter Your Age" type="number" id="ageInput">
+                        <p class="alert alert-danger p-1 text-center opacity-0">Enter valid age</p>
+                        <input class="form-control " placeholder="Enter Your RePassword" type="password" id="repasswordInput">
+                        <p class="alert alert-danger p-1  text-center opacity-0">Repassword not match</p>
+                                    </div>
+                                    <div class="col-md-12 mb-5 d-flex justify-content-center">
+                                        <button  id="submitBtn" disabled="" class="btn btn-outline-danger w-25 m-auto mt-3">Submit</button>
+                                    </div>
+                                   
+
+            
+        </div>
+    <!-- </form> -->
+    </div>
+</section>
+
+<!-- loading screen -->
+<section class="loading">
+    <span class="loader"></span>
+</section>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

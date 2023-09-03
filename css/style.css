@@ -1,0 +1,165 @@
+body{
+    background-color: #0d0d0d;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+
+i{
+    cursor: pointer;
+}
+.col-md-3{
+    cursor: pointer;
+}
+/* start-aside */
+aside{
+    z-index: 99999999999 !important;
+    position: fixed;
+    bottom: 0px;
+    top: 0px;
+    left: -225px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.white{
+    width: 25%;
+    background-color: white;
+}
+.black{
+width: 75%;
+}
+.close{
+    display: none;
+}
+.categ li{
+top: 200px;
+cursor: pointer;
+color: #fff;
+}
+/* end-aside */
+
+/* start-yummy section */
+.white-screen{
+    top: 100%;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all .5s ;
+}
+.col-md-3:hover .white-screen{
+    cursor: pointer;
+top: 0px;
+}
+/* end-yummy section */
+
+/* start-search section */
+/* .search{
+    height: 100vh;
+    background-image: url(../img/lily-banse--YHSwy6uqvk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+.form-control--updated{
+    background-color: #0d0d0d;
+  
+}
+.form-control--updated:focus{
+    color: white;
+    background-color: #0d0d0d;
+  
+}
+input::placeholder{
+    color: rgb(83, 83, 81) !important;
+}
+/* end-search section */
+
+/* start-Area section */
+
+.area-content{
+    cursor: pointer;
+}
+
+/* end-Area section */
+
+/* start loading-section */
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+    background-color: #0d0d0d;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    color: #fff;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    animation: mulShdSpin 1.3s infinite linear;
+    transform: translateZ(0);
+  }
+  
+  @keyframes mulShdSpin {
+    0%,
+    100% {
+      box-shadow: 0 -3em 0 0.2em, 
+      2em -2em 0 0em, 3em 0 0 -1em, 
+      2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 0;
+    }
+    12.5% {
+      box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 
+      3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 -1em;
+    }
+    25% {
+      box-shadow: 0 -3em 0 -0.5em, 
+      2em -2em 0 0, 3em 0 0 0.2em, 
+      2em 2em 0 0, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 -1em;
+    }
+    37.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, 
+       -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, 
+       -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, 
+       -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+      box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 
+      3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+      box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 
+      3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+  }
+    /*end loading section  */
