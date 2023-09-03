@@ -1,6 +1,6 @@
 @media screen and (min-width:0px) and (max-width:600px){
 .white{
-    height: 10%;
+    height: fit-content;
     
 }
 .side-icons{
@@ -9,15 +9,12 @@
 .img{
     display: none;
 }
-.fa-solid{
-    top: -15px;
-   position: relative;
-}
+
 }
 /* sm */
 @media screen and (min-width:601px) and (max-width:768px){
     .white{
-        height: 10%;
+        height: fit-content;
         
     }
     .side-icons{
@@ -26,8 +23,5 @@
     .img{
         display: none;
     }
-    .fa-solid{
-        top: -15px;
-       position: relative;
-    }
+    
 }
